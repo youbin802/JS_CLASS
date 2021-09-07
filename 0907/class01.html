@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous">
+    <style>
+        .container {
+            width:1400px;
+            height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+        }
+        p {
+            font-family: 'Times New Roman', Times, serif;
+            font-size: 20px;
+        }
+        h3 {
+            font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+            padding:10px 0;
+            height: 30px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <p>mouseover, mouseout, mousedown, mouseup</p>
+
+        <div class="btn-group">
+            <button class="btn btn-outline-success" id="btn1">함수를 이용한 이벤트처리</button>
+            <button class="btn btn-outline-success" id="btn2">오브젝트를 이용한 이벤트처리</button>
+            <button class="btn btn-outline-success" id="btn3">클래스를 이용한 이벤트처리</button>
+        </div>
+        <h3  id="out"></h3>
+    </div>
+    <script src="./script/classEx6_multiEvent.js"></script>
+</body>
+</html>
